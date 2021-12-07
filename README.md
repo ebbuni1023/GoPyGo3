@@ -36,6 +36,8 @@ You can install the GoPiGo3 on your own operating system with the following comm
   ```
   
   5. Run the code from ```GoPiGo3.com/python```.
+
+
   
   
   
