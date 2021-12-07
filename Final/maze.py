@@ -44,7 +44,7 @@ def getIndexOfHighestValueInList(array, considered_index_of_element):
 # [sensor_queue] is a Queue object used for inter-thread communications
 
 with open('final.csv', 'w') as csvfile:
-    fieldnames = ['row_num', 'rotation', 'distance_to_walk', 'how_much_of_distance']
+    fieldnames = ['row_num', 'rotation', 'distance_to_drive']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
     
@@ -235,7 +235,7 @@ def robotController(trigger, put_on_hold, simultaneous_launcher, sensor_queue):
 
         print("Rotating at {} degrees and driving for {} cm".format(rotation, distance_to_walk * how_much_of_distance))
         i = 0
-        row = [i, rotation, distance_to_walk, how_much_of_distance]
+        row = [i, rotation, distance_to_walk * how_much_of_distance]
         with open('final.csv', 'a') as csvFile:
             writer = csv.writer(csvFile)
             writer.writerow(row)
