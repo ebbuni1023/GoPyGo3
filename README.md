@@ -10,6 +10,7 @@ Create a maze with a minimum dimension of 10ft x 10 ft. By either preprogramming
 * Hyejin Shin
 
 # Project Demo
+<img src="intro.gif" alt="My Project GIF" width="400" height="500">
 
 # Installation
 
