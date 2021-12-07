@@ -10,7 +10,7 @@ Create a maze with a minimum dimension of 10ft x 10 ft. By either preprogramming
 * Hyejin Shin
 
 # Project Demo
-<img src="intro.gif" alt="My Project GIF" width="400" height="500">
+<img src="./Images/intro.gif" alt="My Project GIF" width="400" height="500">
 
 # Installation
 
@@ -39,4 +39,4 @@ You can install the GoPiGo3 on your own operating system with the following comm
   5. Run the code from ```GoPiGo3.com/python```.
 
   # Data
-  <img src="1.mp4" alt="My Project GIF" width="400" height="500">
+  <img src="./Images/1_SparkVideo.gif" alt="My Project GIF" width="400" height="500">
