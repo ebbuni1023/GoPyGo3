@@ -38,8 +38,5 @@ You can install the GoPiGo3 on your own operating system with the following comm
   
   5. Run the code from ```GoPiGo3.com/python```.
 
-
-  
-  
-  
-
+  # Data
+  <img src="1.mp4" alt="My Project GIF" width="400" height="500">
